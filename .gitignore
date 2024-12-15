@@ -1,0 +1,38 @@
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Rider IDE specific
+.idea/
+*.sln.iml
+.idea/*.sln.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/gradle-jars.xml
+
+# Visual Studio/MonoDevelop specific
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
