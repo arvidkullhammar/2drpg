@@ -21,7 +21,15 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        /*
         // Move the player with the calculated movement
+        float pixelsPerUnit = 16; // Match your sprite PPU
+        Vector2 newPosition = _rb.position + _movement * (moveSpeed * Time.fixedDeltaTime);
+        newPosition.x = Mathf.Round(newPosition.x * pixelsPerUnit) / pixelsPerUnit;
+        newPosition.y = Mathf.Round(newPosition.y * pixelsPerUnit) / pixelsPerUnit;
+        _rb.MovePosition(newPosition);
+        
+        */
         Vector2 scaledMovement = _movement * (moveSpeed * Time.fixedDeltaTime);
         _rb.MovePosition(_rb.position + scaledMovement);
     }
